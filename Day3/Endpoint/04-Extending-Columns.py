@@ -7,3 +7,4 @@ columns_to_keep = ['Event Time','Action Type', 'File Name', 'Folder Path', 'Sha1
                    'File Origin Url',	'File Origin IP', 'File Origin Referrer Url', 'Categories','Severities']
 df = df_base[columns_to_keep]
 df.head()
+#df.shape
