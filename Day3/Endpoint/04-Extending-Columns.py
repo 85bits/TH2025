@@ -1,4 +1,3 @@
-import re
 import pandas as pd
 df_base = pd.read_csv('sample_data/batilaptop-01.csv')
 columns_to_keep = ['Event Time','Action Type', 'File Name', 'Folder Path', 'Sha1', 'Sha256','MD5', 'Account Name',\
